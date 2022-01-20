@@ -1,0 +1,10 @@
+#list{
+  list-style-type:square;
+}
+ h1{
+  text-align:center;
+  color:blue;
+}
+#list1{
+  list-style-type:circle;
+}
