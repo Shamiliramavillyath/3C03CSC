@@ -11,8 +11,8 @@
    GENDER:MALE<input type="radio" name="Gender" value="male" checked/>
           FEMALE<input type="radio" name="Gender" value="female"/>
           TRANS GENDER<input type="radio" name="Gender" value="t"/></br></br></br>
-   District:</br>
-   <select>
+   District:<input list="districts" name="districts" placeholder="Your District"/></br></br></br>
+   <datalist id="districts">
      <option value="Kasaragod"/>
      <option value="Kannur"/>
      <option value="Wayanad"/>
@@ -27,11 +27,12 @@
      <option value="Pattanamthitta"/>
      <option value="Kollam"/>
      <option value="Thiruvananthapuram"/>
-   </select></br>
+   </datalist>
    place:<input type="text" placeholder="Your Place"/></br></br></br>
    Entry Fee:</br></br>
    Up to 15 Years<input type="checkbox" value="up to 15" checked/></br></br>
    Above 15 Years<input type="checkbox" value="above 15"/></br></br>
-   Book your date for entry:<input type="date"/>
+   Book your date for entry:<input type="date"/></br></br></br>
+   <input type="submit"/></br></br>
  </body>
 </html>
